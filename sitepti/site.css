@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+   margin: 0px;
+   box-sizing: border-box;
+   font-family: "Manrope";  
+   
+ }
+ .cabecalho {
+   display: flex;
+   background-color: rgb(225, 240, 225);
+   justify-content: left ;
+   justify-content: space-between ;
+   align-items:center;
+   outline-style: double;
+   outline-width: 15px;
+   outline-color: #008000;
+   padding-right: 5%;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   }
+ a{
+   color: #008000;
+   text-decoration: none;
+}
+.firstclass,.tabelair{
+   display: inline-block;
+   background-color: #008000;
+   justify-content: center;
+   align-content: center;
+   height: 500px;   
+   font-weight: bold;
+   font-size: 200%;
+   margin-top: 4%;
+   width: 100%;
+   text-align: center;
+}
+p,#initial{
+   color: white;
+}
+.secondclass{
+   display: flex;
+   background-image: url('secondclassimage.jpg');
+   background-size: 100% 100%;
+   justify-content: center;
+   justify-content: space-around;
+   align-items: center;
+   height: 500px;   
+   line-height: 30px;   
+   
+}
+#title{
+   padding-left: 50px;
+   padding-right: 50px;
+   column-width: 70%;
+   box-sizing: border-box;
+   text-align: justify;
+   height: 50%;
+   color: #008000;
+}
+.thirdclass{
+   display: flex;
+   background-color: whitesmoke;
+   background-size: 100% 100%;
+   justify-content: flex-start;
+   justify-content: space-around;
+   align-items: center;
+   height: 500px;   
+   line-height: 30px;
+   color: black;
+   
+}
+table,th,td{
+border: 1px solid;
+width: fit-content;
+text-align: center;
+margin: auto;
+background-color: white;
+   
+}
+#contacttext{
+   display: flex;   
+   color: black;
+   font-size: 100%;
+   margin: 5%;
+}
+label,textarea,button{
+   display: flex;
+   justify-items: center;
+   align-items: center;   
+   width: 100%;
+   resize: none;   
+   margin-top: 5px;   
+}
+#contacttextrod{
+   display: flex;   
+   color: black;
+   font-size: 100%;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color: rgb(225, 240, 225);
+}
+
+
+
+
+
+
+
+
+
+
+
+
